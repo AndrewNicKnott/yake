@@ -136,7 +136,7 @@ class ComposedWord:
         """Get whether this phrase starts or ends with stopwords."""
         return self.data["start_or_end_stopwords"]
 
-    def uptade_cand(self, cand):
+    def update_cand(self, cand):
         """
         Update this candidate with data from another candidate.
 

@@ -556,7 +556,7 @@ class DataCore:
             self.candidates[cand.unique_kw] = cand
         else:
             # Update existing candidate with new information
-            self.candidates[cand.unique_kw].uptade_cand(cand)
+            self.candidates[cand.unique_kw].update_cand(cand)
 
         # Increment the frequency counter for this candidate
         self.candidates[cand.unique_kw].tf += 1.0
